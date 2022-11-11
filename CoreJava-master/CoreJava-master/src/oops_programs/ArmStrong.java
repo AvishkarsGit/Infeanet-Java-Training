@@ -3,9 +3,7 @@ package oops_programs;
 import inheritance.ProtectedTest;
 
 import java.util.Scanner;
-
 public class ArmStrong extends ProtectedTest{
-
     public String checkArmStrong(int num)
     {
         int sum=0;

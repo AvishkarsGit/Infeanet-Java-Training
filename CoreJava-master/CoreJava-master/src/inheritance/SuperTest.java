@@ -17,7 +17,6 @@ class P extends Gp
 		System.out.println("name. "+super.name);
 		System.out.println("Address. "+address);
 	}
-	
 }
 class C1 extends P
 {
@@ -26,11 +25,7 @@ class C1 extends P
 	String address="Lohegaon";
 	public void displayInfo()
 	{
-		super.displayInfo();// will call parent class instance methos
-	/*
-		System.out.println("roll no. "+roll);
-		System.out.println("name. "+super.name);
-		System.out.println("Address. "+address);*/
+		super.displayInfo();
 	}
 }
 
